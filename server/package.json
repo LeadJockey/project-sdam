@@ -2,8 +2,9 @@
   "name": "test-zeit-now",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,19 @@
   "homepage": "https://github.com/LeadJockey/test-zeit-now#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "prettier": {
+    "printWidth": 150,
+    "semi": false,
+    "tabWidth": 2,
+    "bracketSpacing": true,
+    "singleQuote": true,
+    "tabs": true,
+    "[javascript]": {
+      "editor.formatOnSave": true
+    }
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }
